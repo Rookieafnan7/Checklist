@@ -125,16 +125,6 @@ app.post("/delete",function(req,res){
   }
   
 })
-// app.get("/work", function(req,res){
-//   Item.find({},function(err,results){
-//     res.render("list", {listTitle: "Work List", newListItems: results});
-//   })
-  
-// });
-
-// app.get("/about", function(req, res){
-//   res.render("about");
-// });
 
 // /category
 app.get("/category/:customListName",function(req,res){
